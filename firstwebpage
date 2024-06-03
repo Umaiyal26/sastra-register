@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>New webpage</title>
+<style>
+body
+{
+background-image:url("download.jpeg");
+background-repeat:no-repeat;
+background-size:cover;
+}
+</style>
+</head>
+<body>
+<p >Hi all, I'm Umaiya</p>
+<form>
+<label for"username"> Username:</label><br>
+<input type="text" id="username" name="username" placeholder="Enter your name" required><br><br>
+<label for"password"> Password:</label><br>
+<input type="password" id="password" name="password" minlength=8><br><br>
+<label for"phone"> Phone number:</label><br>
+<input type="tel" id="phone" name="phone" pattern="[6-9]{1}[0-9]{9}"><br><br>
+<audio controls>
+<source src="AUD-20230125-WA0030.mp3" type="audio/mpeg">
+</audio>
+
+<p><b> Gender:</b></p>
+<input type="radio" name="gender" value="Male">
+<label for="male">Male</label><br>
+<input type="radio" name="gender" value="Female">
+<label for="female">Female</label><br><br>
+<label for="user"> Usertype:</label>
+<select id="user">
+<option value="admin">Admin</option>
+<option value="user">User</option>
+</select><br><br>
+<input type="submit" value="Submit">
+</form>
+</body>
+</html>
